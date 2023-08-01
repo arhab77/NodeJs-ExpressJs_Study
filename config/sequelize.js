@@ -3,7 +3,7 @@ const {Sequelize} = require('sequelize');
 const sequalize = new Sequelize ({
     database: 'edu-cruds-v2',
     username: 'root',
-    password: 'root',
+    password: '',
     host: 'localhost',
     dialect: 'mysql'
 });
